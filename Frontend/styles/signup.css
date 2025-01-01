@@ -1,0 +1,15 @@
+#signup {
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    background-color: teal;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#signup:hover {
+    background-color: darkslategray;
+}

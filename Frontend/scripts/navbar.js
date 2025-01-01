@@ -1,8 +1,8 @@
-const navbar =   `
+const navbar = `
           <div id="nav1">
             <div id="navleft">
-                <img src="/Cuddle care/CuddleCarelogo.png" alt="Cuddle Care Logo">
-                <hr>
+             <img src="./Cuddle care/CuddleCarelogo.png" alt="CuddleCarelogo">
+              
                 <div id="deliverto">
                     Delivery to
 
@@ -14,9 +14,9 @@ const navbar =   `
 
             <div id="nav-right">
                 <button>Download App</button>
-                <a href="login.html"> Hello, Log in</a>
-                <a href="offer.html">Offers</a>
-                <a href="cart.html">Cart</a>
+                <a href="./login.html"> Hello, Log in</a>
+                <a href="./offer.html">Offers</a>
+                <a href="./cart.html">Cart</a>
             </div>
         </div>
         <div id="nav2">

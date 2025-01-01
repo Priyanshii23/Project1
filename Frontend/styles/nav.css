@@ -83,6 +83,12 @@ a:hover {
     gap: 20px;
     font-size: larger;
     margin-top: 10px;
+    padding: auto;
+   
+}
+#nav{
+    
+    border-bottom: 1px solid #ddd;
 }
 
 /* Media Queries for Responsiveness */
