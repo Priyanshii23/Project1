@@ -1,0 +1,111 @@
+/* Top Nav */
+#nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+  
+    box-sizing: border-box; /* Ensures padding does not affect width */
+}
+
+/* Nav Section */
+#nav1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+    box-sizing: border-box; /* Ensures padding does not affect width */
+}
+
+/* Left Nav */
+#navleft {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+img {
+    border-radius: 50%;
+    width: 70px;
+    height: auto;
+}
+
+#deliverto {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+}
+
+/* Right Nav */
+#nav-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: flex-end; /* Ensure elements align to the right */
+    width: 100%;
+}
+
+button {
+    border-radius: 20px;
+    width: 100px;
+    height: 50px;
+    background-color: teal;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: darkslategray;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: teal;
+}
+
+/* Second Nav Bar or categories bar */
+
+#nav2{
+    display: flex;
+    gap: 20px;
+    font-size: larger;
+    margin-top: 10px;
+}
+
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 768px) {
+    #nav1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #navleft, #nav-right {
+        width: 100%;
+        justify-content: center;
+    }
+
+    #deliverto {
+        margin-top: 10px;
+    }
+
+    button {
+        width: 120px;
+    }
+
+    img {
+        width: 50px;
+    }
+}
