@@ -20,7 +20,7 @@ const navbar = `
             </div>
         </div>
         <div id="nav2">
-            <a href="category.html">Categories</a>
+         
             <a href="health.html">Health</a>
             <a href="food.html">Food</a>
             <a href="fashion.html">Fashion</a>

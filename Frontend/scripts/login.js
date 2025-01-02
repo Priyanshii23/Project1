@@ -11,23 +11,43 @@ loginform.addEventListener("submit", async function () {
     }
     //if email present in db
 
+    if (loginEmail === "user@admin.com") {
+        if (loginPassword === "admin@123") {
+            alert("Logged in as Admin...");
+            window.location.href = "admin.html";
+        } else {
+            alert("Invalid Admin Credentials. Please try again.");
+        }
+        return;
+    }
     try {
         const res = await fetch(`${baseUrl}/users`);
         const users = await res.json();
 
-        const user = users.map(el => {
-            if (el.email = loginEmail) {
-                // if password matches
-                if (el.password == loginPassword) {
-                    alert(`Welcome back, ${el.name}!`)
-                    window.location.href = "index.html"
 
+     
+        const filteredUser = users.filter(el => el.email==loginEmail);
+            if (filteredUser.length>0) {
+                const user = filteredUser[0]
+                // if password matches
+                if (user.password === loginPassword) {
+                     {
+                        alert(`Welcome back, ${user.name}!`)
+                        window.location.href = "index.html"
+                    }
+
+
+                } else{
+                    alert("Invalid Password.. PLease try again...")
                 }
+            } else{
+                alert("Email not found. Please sign up.");
             }
-        })
+        
 
     } catch (err) {
         console.log(err)
+        alert("Something went wrong. Please try again later.");
     }
 
 

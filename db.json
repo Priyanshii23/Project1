@@ -7,5 +7,103 @@
       "password": "989898",
       "id": 1
     }
+  ],
+  "admin": [
+    {
+      "email": "user@admin.com",
+      "password": "admin@123"
+    }
+  ],
+  "products": [
+    {
+      "name": "loral Ethnic Printed Jacket & Dhoti - Green",
+      "description": " Full Sleeves Solid Kurta With Floral Ethnic Printed Jacket & Dhoti - Green",
+      "price": "999",
+      "image": "https://cdn.fcglcdn.com/brainbees/images/products/300x364/17708984a.webp",
+      "category": "fashion",
+      "rating": "4",
+      "id": 1
+    },
+    {
+      "name": "Party Frock for Girls - GOLDEN",
+      "description": "Foreverkidz Sequin & Tulle Net English Elegance Party Frock for Girls - GOLDEN",
+      "price": "3999",
+      "image": "https://cdn.fcglcdn.com/brainbees/images/products/583x720/13314573a.webp",
+      "category": "fashion",
+      "rating": "4",
+      "id": 2
+    },
+    {
+      "name": "Enfance Polka Dots Foil Printed Dress With Full Sleeves Textured Long Jacket & Belt - Cream",
+      "description": "Enfance Polka Dots Foil Printed Dress With Full Sleeves Textured Long Jacket & Belt - Cream",
+      "price": "2599",
+      "image": "https://cdn.fcglcdn.com/brainbees/images/products/300x364/19179648a.webp",
+      "category": "fashion",
+      "rating": "5",
+      "id": 3
+    },
+    {
+      "name": "P-MARK Full Sleeves Block Motif Embroidered & Sequin Embellished Kurta Pyjama Set",
+      "description": "P-MARK Full Sleeves Block Motif Embroidered & Sequin Embellished Kurta Pyjama Set -  Purple P-MARK Full Sleeves Block Motif Embroidered & Sequin Embellished Kurta Pyjama Set ",
+      "price": "1199",
+      "image": "https://cdn.fcglcdn.com/brainbees/images/products/583x720/14931607a.webp",
+      "category": "fashion",
+      "rating": "4",
+      "id": 4
+    },
+    {
+      "name": "Babyhug Disney 100% Cotton Interlock Knit Half Sleeves Front Open Jhablas Mickey Mouse Print Pack of 3 - Multicolor",
+      "description": "Babyhug Disney 100% Cotton Interlock Knit Half Sleeves Front Open Jhablas Mickey Mouse Print Pack of 3 - Multicolor",
+      "price": "650",
+      "image": "https://cdn.fcglcdn.com/brainbees/images/products/583x720/15894661a.webp",
+      "category": "fashion",
+      "rating": "4",
+      "id": 5
+    },
+    {
+      "name": "MayRa Knits Sleeveless Polka Dot Designed Woollen Dress With Cap And Booties - Red",
+      "description": "MayRa Knits Sleeveless Polka Dot Designed Woollen Dress With Cap And Booties - Red",
+      "price": "799",
+      "image": "https://cdn.fcglcdn.com/brainbees/images/products/583x720/15746128a.webp",
+      "category": "fashion",
+      "rating": "4",
+      "id": 6
+    },
+    {
+      "name": "USHA ENTERPRISES Short Sleeves Floral Applique Dress With Bloomer & Headband With Booties - Yellow",
+      "description": "USHA ENTERPRISES Short Sleeves Floral Applique Dress With Bloomer & Headband With Booties - Yellow",
+      "price": "1099",
+      "image": "https://cdn.fcglcdn.com/brainbees/images/products/583x720/8468726a.webp",
+      "category": "fashion",
+      "rating": "5",
+      "id": 7
+    },
+    {
+      "name": "Kiddopanti Fleece Full Sleeves Side Brand Name Text Printed Sweatshirt With Solid Track Pant Set - Maroon & Beige",
+      "description": "Kiddopanti Fleece Full Sleeves Side Brand Name Text Printed Sweatshirt With Solid Track Pant Set - Maroon & Beige",
+      "price": "899",
+      "image": "https://cdn.fcglcdn.com/brainbees/images/products/583x720/18505131a.webp",
+      "category": "fashion",
+      "rating": "4",
+      "id": 8
+    },
+    {
+      "name": "Kookie Kids Full Sleeves Christmas Theme Frocks With Fur Applique and Cap - Red",
+      "description": "Kookie Kids Full Sleeves Christmas Theme Frocks With Fur Applique and Cap - Red",
+      "price": "459",
+      "image": "https://cdn.fcglcdn.com/brainbees/images/products/583x720/14153424a.webp",
+      "category": "fashion",
+      "rating": "4",
+      "id": 9
+    },
+    {
+      "name": "tior Half Sleeves Smock Detail Checked Dress - Black",
+      "description": "tior Half Sleeves Smock Detail Checked Dress - Black",
+      "price": "999",
+      "image": "https://cdn.fcglcdn.com/brainbees/images/products/583x720/17894332a.webp",
+      "category": "fashion",
+      "rating": "4",
+      "id": 10
+    }
   ]
 }

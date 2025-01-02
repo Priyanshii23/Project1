@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Page</title>
+    <link rel="stylesheet" href="./Frontend/styles/nav.css">
+</head>
+
+<body>
+    <div id="nav"></div>
+
+    <form action="" id="admin">
+        <input type="text" id="productName" placeholder=" Enter Product Name">
+        <input type="text" id="productDescription" placeholder="Enter Product Description">
+        <input type="number" id="productPrice" placeholder=" Enter Price">
+        <input type="text" id="productImage" placeholder="Image URL">
+
+        <select name="category" id="productCategory">
+            <option value="">Select Category</option>
+            <option value="fashion">Fashion</option>
+            <option value="food">Food</option>
+            <option value="health">Health</option>
+            <option value="bath">Bath</option>
+        </select>
+        <input type="number" id="productRating" placeholder="Enter Rating">
+        <input type="submit" id="addProduct" value="Add Product">
+    </form>
+
+</body>
+<script src="./Frontend/scripts/navbar.js"></script>
+<script src="./Frontend/scripts/admin.js" type="module"></script>
+
+</html>
