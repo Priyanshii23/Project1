@@ -1,7 +1,16 @@
-import { baseUrl } from "../../baseurl.js";
+// import { baseUrl } from "../../baseurl.js";
 
-let cart =[];
+ export function addToCart(product) {
+    const cart = JSON.parse(localStorage.getItem("cart")) || [];
 
-window.addEventListener("load",async function(){
-    const products = c
-})
+    const existingProduct = cart.filter(item => item.id==product.id);
+    if(existingProduct){
+        existingProduct.quantity+=1;
+    } else{
+        product.quantity=1;
+        cart.push(product);
+    }
+    localStorage.setItem("cart", JSON.stringify(cart));
+    alert(`${product.name} has been added to your cart.`)
+
+}

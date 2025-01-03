@@ -1,5 +1,5 @@
 import { baseUrl } from "../../baseurl.js";
-
+import  {addToCart} from "./cart.js"
 window.addEventListener("load", async function () {
 
     const products = document.getElementById("fashionProducts")
@@ -24,11 +24,13 @@ window.addEventListener("load", async function () {
                          <p>Rating: ${el.rating} ★</p>
                          <button class="add-to-cart" data-id="${el.id}">Add to Cart</button>
                      `
-                        products.appendChild(fashionCard)
+                products.appendChild(fashionCard)
+                const addToCartBtn = fashionCard.querySelector(".add-to-cart");
+                addToCartBtn.addEventListener("click", function () {
+                    addToCart(el)
+                })
             });
         }
-
-
     } catch (err) {
         alert("Something went wrong...")
         console.log(err)
