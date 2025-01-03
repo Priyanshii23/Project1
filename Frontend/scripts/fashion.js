@@ -4,7 +4,7 @@ window.addEventListener("load", async function () {
 
     const products = document.getElementById("fashionProducts")
     try {
-        const res = await fetch(`${baseUrl}/products`)
+        const res = await fetch(`${baseUrl}/products?category=fashion`)
         const fashionProducts = await res.json();
 
         //checking if products are available
@@ -22,7 +22,8 @@ window.addEventListener("load", async function () {
                          <p>${el.description}</p>
                          <p>Price: $${el.price}</p>
                          <p>Rating: ${el.rating} ★</p>
-                         `
+                         <button class="add-to-cart" data-id="${el.id}">Add to Cart</button>
+                     `
                         products.appendChild(fashionCard)
             });
         }

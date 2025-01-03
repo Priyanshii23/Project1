@@ -16,11 +16,11 @@ h1 {
     margin: 0;
 }
 
-#fashionProducts {
+#fashionProducts, #foodProduct, #healthProducts {
     display: grid;
     grid-template-columns: repeat(5,2fr);
     justify-content: center;
-    /* gap: 10px; */
+    gap: 20px;
     margin: 20px;
 }
 
@@ -48,6 +48,11 @@ h1 {
 .product p {
     color: darkolivegreen;
     font-size: 0.9rem;
+}
+.product:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
 }
 
 footer {

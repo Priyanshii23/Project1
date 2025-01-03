@@ -1,7 +1,8 @@
 const navbar = `
           <div id="nav1">
             <div id="navleft">
-             <img src="./Cuddle care/CuddleCarelogo.png" alt="CuddleCarelogo">
+             <a href="index.html">  <img src="./Cuddle care/CuddleCarelogo.png" alt="CuddleCarelogo"></a>
+            
               
                 <div id="deliverto">
                     Delivery to

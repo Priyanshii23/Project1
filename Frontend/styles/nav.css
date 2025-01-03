@@ -19,6 +19,9 @@
     border-bottom: 1px solid #ddd;
     box-sizing: border-box; /* Ensures padding does not affect width */
 }
+#nav1>h1{
+    text-align: center;
+}
 
 /* Left Nav */
 #navleft {
@@ -29,7 +32,7 @@
 
  #nav img {
     border-radius: 50%;
-    width: 70px;
+    width: 100px;
     height: auto;
 }
 

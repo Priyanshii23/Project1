@@ -104,6 +104,69 @@
       "category": "fashion",
       "rating": "4",
       "id": 10
+    },
+    {
+      "name": "CERELAC Baby Cereal with Milk, Wheat Apple, Stage 1",
+      "description": "CERELAC Baby Cereal with Milk, Wheat Apple, Stage 1",
+      "price": "280",
+      "image": "https://m.media-amazon.com/images/I/81fiHQWPk5L.jpg",
+      "category": "food",
+      "rating": "4",
+      "id": 11
+    },
+    {
+      "name": "Babyhug Silicone Medicine Feeder with pacifier Cap - White",
+      "description": "Babyhug Silicone Medicine Feeder with pacifier Cap - White",
+      "price": "89",
+      "image": "https://cdn.fcglcdn.com/brainbees/images/products/583x720/3553739a.webp",
+      "category": "health",
+      "rating": "4",
+      "id": 12
+    },
+    {
+      "name": "Babyhug Indigestion and Colic Relief Easy Tummy Roll On - 40 ml",
+      "description": "Babyhug Indigestion and Colic Relief Easy Tummy Roll On - 40 ml",
+      "price": "200",
+      "image": "https://cdn.fcglcdn.com/brainbees/images/products/583x720/8078611a.webp",
+      "category": "health",
+      "rating": "4",
+      "id": 13
+    },
+    {
+      "name": "Ozocheck Easy Touch Glucometer Test Strips - Pack of 50",
+      "description": "Ozocheck Easy Touch Glucometer Test Strips - Pack of 50",
+      "price": "1200",
+      "image": "https://cdn.fcglcdn.com/brainbees/images/products/583x720/13741812a.webp",
+      "category": "health",
+      "rating": "4",
+      "id": 14
+    },
+    {
+      "name": "Aptamil Gold Infant Formula Baby Milk Powder BIB Pack Stage 1 - 1.2 kg",
+      "description": "Aptamil Gold Infant Formula Baby Milk Powder BIB Pack Stage 1 - 1.2 kg",
+      "price": "2650",
+      "image": "https://cdn.fcglcdn.com/brainbees/images/products/583x720/17719069a.webp",
+      "category": "food",
+      "rating": "4",
+      "id": 15
+    },
+    {
+      "name": "Philips Natural Baby Feeding Bottle | No.1 Brand Recommended by Moms Worldwide ",
+      "description": "Philips Natural Baby Feeding Bottle | No.1 Brand Recommended by Moms Worldwide ",
+      "price": "595",
+      "image": "https://cdn.fcglcdn.com/brainbees/images/products/583x720/16204636a.webp",
+      "category": "food",
+      "rating": "4",
+      "id": 16
+    },
+    {
+      "name": "Slurrp Farm 100% Natural Sweetener Date Powder - 300 gm",
+      "description": "Slurrp Farm 100% Natural Sweetener Date Powder - 300 gm",
+      "price": "490",
+      "image": "https://cdn.fcglcdn.com/brainbees/images/products/583x720/10064435a.webp",
+      "category": "food",
+      "rating": "4",
+      "id": 17
     }
   ]
 }

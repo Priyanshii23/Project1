@@ -1,0 +1,14 @@
+#main{
+    /* border: 1px solid black; */
+    padding: 20px;
+    margin: 10px;
+}
+
+#searchbar{
+    text-align: center;
+}
+#searchbox{
+   width: 70%;
+   height: 2rem;
+   border-radius: 15px;
+}
