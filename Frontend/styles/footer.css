@@ -1,12 +1,22 @@
 
+#Footer{
+    /* position: absolute;
+    bottom: 0; */
+    position: relative;
+    bottom: 0;
+    margin-top: auto;
+}
+
 #footer {
+   
     display: flex;
     justify-content: space-between;
     background-color: #EEF4FF;
-    
+    /* position: absolute; */
+    bottom: 0;
     color: black;
     padding: 20px;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
   }
 
   #footer a {
@@ -22,7 +32,7 @@
   }
   
   #footer h3 {
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid slategray;
     padding-bottom: 10px;
     margin-bottom: 10px;
   }
