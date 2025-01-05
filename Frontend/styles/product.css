@@ -64,3 +64,61 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+/* Mobile view (up to 600px) */
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 14px; /* Adjust the font size for smaller screens */
+    }
+
+    header {
+        padding: 1rem;
+    }
+
+    #fashionProducts, #foodProduct, #healthProducts {
+        grid-template-columns: 1fr; /* Stacks products in a single column */
+        gap: 15px;
+    }
+
+    .product {
+        width: 100%; /* Full width for mobile devices */
+        padding: 15px;
+    }
+
+    .product h3 {
+        font-size: 1rem;
+    }
+
+    .product p {
+        font-size: 0.85rem;
+    }
+
+    footer {
+        padding: 8px;
+    }
+}
+
+/* Tablet view (601px to 1024px) */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    #fashionProducts, #foodProduct, #healthProducts {
+        grid-template-columns: repeat(3, 1fr); /* Display 3 items per row */
+    }
+
+    .product {
+        width: 90%; /* Adjust width for tablet */
+        padding: 15px;
+    }
+
+    .product h3 {
+        font-size: 1.1rem;
+    }
+
+    .product p {
+        font-size: 0.9rem;
+    }
+
+    footer {
+        padding: 12px;
+    }
+}
+

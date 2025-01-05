@@ -93,28 +93,88 @@ a:hover {
     
     border-bottom: 1px solid #ddd;
 }
+/* Mobile view (up to 600px) */
+@media screen and (max-width: 600px) {
+    #nav {
+       
+        align-items: center;
+        padding: 5px;
+    }
 
-/* Media Queries for Responsiveness */
-@media screen and (max-width: 768px) {
     #nav1 {
         flex-direction: column;
-        align-items: center;
+        padding: 10px;
+        text-align: center;
+    }
+
+    #nav1>h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
     }
 
     #navleft, #nav-right {
+        
+        align-items: center;
         width: 100%;
+        gap: 15px;
         justify-content: center;
     }
 
+    #nav img {
+        width: 80px;
+        height: auto;
+    }
+
     #deliverto {
-        margin-top: 10px;
+        font-size: 14px;
+    }
+
+    #nav2 {
+        
+        font-size: 16px;
+        margin-top: 15px;
     }
 
     button {
-        width: 120px;
+        width: 80%;
+        height: 40px;
+        font-size: 14px;
     }
 
-    img {
-        width: 50px;
+    a {
+        font-size: 14px;
+    }
+}
+
+/* Tablet view (601px to 1024px) */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    #nav1 {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 15px;
+    }
+
+    #navleft, #nav-right {
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    #nav img {
+        width: 90px;
+    }
+
+    #nav2 {
+        font-size: 18px;
+        margin-top: 15px;
+    }
+
+    button {
+        width: 90px;
+        height: 45px;
+        font-size: 15px;
+    }
+
+    a {
+        font-size: 16px;
     }
 }
