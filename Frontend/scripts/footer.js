@@ -38,6 +38,9 @@ const footer = `
             <img src="https://assets.pharmeasy.in/apothecary/images/phonepe.png?dim=1440x0" alt="PhonePe Logo">
             <img src="https://assets.pharmeasy.in/apothecary/images/rupay.png?dim=1440x0" alt="Rupay Logo">
         </div>
+         <div id="bottom">
+            &copy;All Rights Reserved:2025:Cuddle Care
+        </div>
 `
 
 document.getElementById("Footer").innerHTML = footer
