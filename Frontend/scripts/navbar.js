@@ -16,8 +16,9 @@ const navbar = `
             <div id="nav-right">
                 <button>Download App</button>
                 <a href="./login.html"> Hello, Log in</a>
-                <a href="./offer.html">Offers</a>
+                <a href="">Offers</a>
                 <a href="./cart.html">Cart</a>
+            
             </div>
         </div>
         <div id="nav2">

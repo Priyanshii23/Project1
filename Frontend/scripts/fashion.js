@@ -1,5 +1,6 @@
 import { baseUrl } from "../../baseurl.js";
-import  {addToCart} from "./cart.js"
+// import  {addToCart} from "./cart.js"
+import{addToCart} from "./cart.js"
 window.addEventListener("load", async function () {
 
     const products = document.getElementById("fashionProducts")
@@ -28,6 +29,7 @@ window.addEventListener("load", async function () {
                 const addToCartBtn = fashionCard.querySelector(".add-to-cart");
                 addToCartBtn.addEventListener("click", function () {
                     addToCart(el)
+                    console.log(fashionProducts)
                 })
             });
         }

@@ -11,7 +11,7 @@ window.addEventListener("load", async function () {
             products.innerHTML = `<p>No health products available.</p>`;
         } else {
             healthProducts.forEach(el => {
-                let healthCard = this.document.createElement("div")
+                let healthCard = document.createElement("div")
                 healthCard.classList.add("product");
 
                 healthCard.innerHTML = `
