@@ -6,6 +6,27 @@
       "mobile": "9876543210",
       "password": "989898",
       "id": 1
+    },
+    {
+      "name": "Priyanshi Agrawal",
+      "email": "priyanshi@gmail.com",
+      "mobile": "89898989898",
+      "password": "909090",
+      "id": 2
+    },
+    {
+      "name": "Priyanshi Agrawal",
+      "email": "priya@gmail.com",
+      "mobile": "8989898989",
+      "password": "88888",
+      "id": 3
+    },
+    {
+      "name": "Priyanshi Agrawal",
+      "email": "user@empher.com",
+      "mobile": "989898",
+      "password": "000000",
+      "id": 4
     }
   ],
   "admin": [
@@ -239,6 +260,51 @@
       "category": "food",
       "rating": "4",
       "id": 25
+    },
+    {
+      "name": "timios Melts Non-Fried No-Maida Wholegrain Star-Shaped Snacks Blueberry Flavour - 50 g",
+      "description": "timios Melts Non-Fried No-Maida Wholegrain Star-Shaped Snacks Blueberry Flavour - 50 g",
+      "price": "101",
+      "image": "https://cdn.fcglcdn.com/brainbees/images/products/583x720/8714189a.webp",
+      "category": "food",
+      "rating": "4",
+      "id": 26
+    },
+    {
+      "name": "timios 100% Organic Immunity Booster Jaggery Powder - 300 g",
+      "description": "timios 100% Organic Immunity Booster Jaggery Powder - 300 g",
+      "price": "250",
+      "image": "https://cdn.fcglcdn.com/brainbees/images/products/583x720/14422028a.webp",
+      "category": "food",
+      "rating": "5",
+      "id": 27
+    },
+    {
+      "name": "Nestle Cerelac Baby Cereal with Milk, Wheat Honey, From 12 to 24 Months, Stage 4, Source of Iron & Protein ,Bag-In-Box Pack, 300g",
+      "description": "Nestle Cerelac Baby Cereal with Milk, Wheat Honey, From 12 to 24 Months, Stage 4, Source of Iron & Protein ,Bag-In-Box Pack, 300g",
+      "price": "350",
+      "image": "https://cdn.fcglcdn.com/brainbees/images/products/583x720/578548a.webp",
+      "category": "food",
+      "rating": "4",
+      "id": 28
+    },
+    {
+      "name": "BabyOrgano BaalPrashan Swarnaprashan Immunity Booster Drops Pack of 2 - 15 ml Each",
+      "description": "BabyOrgano BaalPrashan Swarnaprashan Immunity Booster Drops Pack of 2 - 15 ml Each",
+      "price": "450",
+      "image": "https://cdn.fcglcdn.com/brainbees/images/products/583x720/9301502a.webp",
+      "category": "health",
+      "rating": "4",
+      "id": 29
+    },
+    {
+      "name": "Babyhug Tongue Cleaner Blue",
+      "description": "Babyhug Tongue Cleaner Blue",
+      "price": "190",
+      "image": "https://cdn.fcglcdn.com/brainbees/images/products/583x720/3547729a.webp",
+      "category": "health",
+      "rating": "4",
+      "id": 30
     }
   ]
 }
